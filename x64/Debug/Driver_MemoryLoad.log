@@ -1,0 +1,85 @@
+﻿  Building 'Driver_MemoryLoad' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  Active code page: 65001
+  褰撳墠鐩綍鍦? I:\code\Driver_code\Driver_MemoryLoad
+  Press any key to continue . . . 
+  DriverLoadMemory.c
+I:\code\Driver_code\Driver_MemoryLoad\MemoryLoad.h(27,4): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+I:\code\Driver_code\Driver_MemoryLoad\MemoryLoad.h(28,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+I:\code\Driver_code\Driver_MemoryLoad\MemoryLoad.h(33,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+I:\code\Driver_code\Driver_MemoryLoad\DriverLoadMemory.c(52,22): warning C4996: 'ExAllocatePool': ExAllocatePool is deprecated, use ExAllocatePool2.
+I:\code\Driver_code\Driver_MemoryLoad\DriverLoadMemory.c(25,62): warning C4100: “pReg”: 未引用的形参
+  MemoryLoad.c
+I:\code\Driver_code\Driver_MemoryLoad\MemoryLoad.h(27,4): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+I:\code\Driver_code\Driver_MemoryLoad\MemoryLoad.h(28,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+I:\code\Driver_code\Driver_MemoryLoad\MemoryLoad.h(33,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+I:\code\Driver_code\Driver_MemoryLoad\MemoryLoad.c(17,16): warning C4133: “函数”: 从“RTL_OSVERSIONINFOEXW *”到“PRTL_OSVERSIONINFOW”的类型不兼容
+I:\code\Driver_code\Driver_MemoryLoad\MemoryLoad.c(110,34): warning C4057: “函数”:“PUCHAR”与“char *”在稍微不同的基类型间接寻址上不同
+I:\code\Driver_code\Driver_MemoryLoad\MemoryLoad.c(131,48): warning C4022: “FindExportedRoutineByName”: 指针与实参 1 不匹配
+I:\code\Driver_code\Driver_MemoryLoad\MemoryLoad.c(137,36): warning C4047: “=”:“ULONGLONG”与“PVOID”的间接级别不同
+I:\code\Driver_code\Driver_MemoryLoad\MemoryLoad.c(114,21): warning C4189: “pNames”: 局部变量已初始化但不引用
+I:\code\Driver_code\Driver_MemoryLoad\MemoryLoad.c(176,21): warning C4018: “<”: 有符号/无符号不匹配
+I:\code\Driver_code\Driver_MemoryLoad\MemoryLoad.c(185,56): warning C4242: “=”: 从“ULONGLONG”转换到“ULONG”，可能丢失数据
+I:\code\Driver_code\Driver_MemoryLoad\MemoryLoad.c(253,6): warning C4133: “函数”: 从“PUCHAR”到“_DRIVER_OBJECT *”的类型不兼容
+I:\code\Driver_code\Driver_MemoryLoad\MemoryLoad.c(253,13): warning C4133: “函数”: 从“PUCHAR”到“PUNICODE_STRING”的类型不兼容
+I:\code\Driver_code\Driver_MemoryLoad\MemoryLoad.c(206,43): warning C4100: “size”: 未引用的形参
+  tools.c
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(28,107): warning C4133: “函数”: 从“ULONG_PTR *”到“PULONG”的类型不兼容
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(45,79): warning C4133: “函数”: 从“ULONG_PTR *”到“PULONG”的类型不兼容
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(59,36): warning C4057: “函数”:“PCSZ”与“PUCHAR”在稍微不同的基类型间接寻址上不同
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(79,15): warning C4456: “unoskernleName”的声明隐藏了上一个本地声明
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(67,14): message : 参见“unoskernleName”的声明
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(85,46): warning C4047: “=”:“ULONG_PTR”与“PVOID”的间接级别不同
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(90,18): warning C4018: “<”: 有符号/无符号不匹配
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(106,31): warning C4057: “函数”:“PCSZ”与“PUCHAR”在稍微不同的基类型间接寻址上不同
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(112,47): warning C4047: “=”:“ULONG_PTR”与“PVOID”的间接级别不同
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(22,34): warning C4996: 'ExAllocatePool': ExAllocatePool is deprecated, use ExAllocatePool2.
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(42,30): warning C4242: “初始化”: 从“ULONG_PTR”转换到“ULONG”，可能丢失数据
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(43,14): warning C4996: 'ExAllocatePool': ExAllocatePool is deprecated, use ExAllocatePool2.
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(158,35): warning C4047: “=”:“ULONG_PTR”与“PVOID”的间接级别不同
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(163,22): warning C4018: “<”: 有符号/无符号不匹配
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(166,29): warning C4057: “函数”:“char *”与“UCHAR [256]”在稍微不同的基类型间接寻址上不同
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(167,29): warning C4057: “函数”:“const char *”与“UCHAR [256]”在稍微不同的基类型间接寻址上不同
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(171,41): warning C4047: “=”:“ULONG_PTR”与“PVOID”的间接级别不同
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(130,8): warning C4047: “初始化”:“ULONG”与“void *”的间接级别不同
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(142,52): warning C4996: 'ExAllocatePool': ExAllocatePool is deprecated, use ExAllocatePool2.
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(196,1): warning C4211: 使用了非标准扩展: 将“extern”重新定义为“static”
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(219,1): warning C4211: 使用了非标准扩展: 将“extern”重新定义为“static”
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(223,32): warning C4242: “=”: 从“ULONG_PTR”转换到“ULONG”，可能丢失数据
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(224,21): warning C4242: “=”: 从“ULONG_PTR”转换到“int”，可能丢失数据
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(237,33): warning C4057: “函数”:“UCHAR *”与“PCHAR”在稍微不同的基类型间接寻址上不同
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(242,18): warning C4242: “=”: 从“ULONG_PTR”转换到“ULONG”，可能丢失数据
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(247,1): warning C4211: 使用了非标准扩展: 将“extern”重新定义为“static”
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(304,1): warning C4211: 使用了非标准扩展: 将“extern”重新定义为“static”
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(309,26): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(310,9): warning C4996: 'ExAllocatePool': ExAllocatePool is deprecated, use ExAllocatePool2.
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(333,27): warning C4057: “函数”:“PUCHAR”与“char [13]”在稍微不同的基类型间接寻址上不同
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(333,15): warning C4242: “初始化”: 从“ULONG_PTR”转换到“ULONG”，可能丢失数据
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(382,45): warning C4022: “MmCopyVirtualMemory”: 指针与实参 2 不匹配
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(346,15): warning C4242: “初始化”: 从“ULONG_PTR”转换到“ULONG”，可能丢失数据
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(380,14): warning C4996: 'ExAllocatePool': ExAllocatePool is deprecated, use ExAllocatePool2.
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(399,4): warning C4459: “OBJECT_ATTRIBUTES”的声明隐藏了全局声明
+I:\Windows Kits\10.0.22621\Include\10.0.22621.0\shared\ntdef.h(1848,3): message : 参见“OBJECT_ATTRIBUTES”的声明
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(406,29): warning C4133: “函数”: 从“OBJECT_ATTRIBUTES *”到“POBJECT_ATTRIBUTES”的类型不兼容
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(416,40): warning C4133: “函数”: 从“OBJECT_ATTRIBUTES *”到“POBJECT_ATTRIBUTES”的类型不兼容
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(416,65): warning C4047: “函数”:“ULONG”与“void *”的间接级别不同
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(416,61): warning C4024: “ZwOpenFile”: 形参和实参 5 的类型不同
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(442,20): warning C4133: “函数”: 从“OBJECT_ATTRIBUTES *”到“POBJECT_ATTRIBUTES”的类型不兼容
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(462,31): warning C4133: “初始化”: 从“PIMAGE_LOAD_CONFIG_CODE_INTEGRITY”到“PIMAGE_LOAD_CONFIG_DIRECTORY”的类型不兼容
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(498,47): warning C4133: “函数”: 从“unsigned short [6]”到“PCUNICODE_STRING”的类型不兼容
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(519,2): warning C4047: “=”:“PUNICODE_STRING”与“PUNICODE_STRING *”的间接级别不同
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(493,31): warning C4996: 'ExAllocatePool': ExAllocatePool is deprecated, use ExAllocatePool2.
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(542,36): warning C4242: “函数”: 从“SIZE_T”转换到“ULONG”，可能丢失数据
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(584,12): warning C4996: 'MmMapLockedPages': 被声明为已否决
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(633,35): warning C4033: “MmMapPhyMem”必须返回值
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(674,17): warning C4133: “函数”: 从“RTL_OSVERSIONINFOEXW *”到“PRTL_OSVERSIONINFOW”的类型不兼容
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(720,25): warning C4022: “MapMdl”: 指针与实参 1 不匹配
+  正在生成代码...
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(453): warning C4715: “ForceDeleteSys”: 不是所有的控件路径都返回值
+I:\code\Driver_code\Driver_MemoryLoad\tools.c(637): warning C4715: “MmMapPhyMem”: 不是所有的控件路径都返回值
+I:\code\Driver_code\Driver_MemoryLoad\MemoryLoad.c(257): warning C4715: “MemLoadLibrary”: 不是所有的控件路径都返回值
+  Driver_MemoryLoad.vcxproj -> I:\code\Driver_code\IoCreate_驱动通信\x64\Debug\Driver_MemoryLoad.sys
+  Done Adding Additional Store
+  Successfully signed: I:\code\Driver_code\IoCreate_\x64\Debug\Driver_MemoryLoad.sys
+  
+  Inf2Cat task was skipped as there were no inf files to process
+  
